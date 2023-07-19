@@ -248,16 +248,50 @@
 
 /* footer sections starts */
 .footer-container {
-  margin-top: 120px;
+  margin-top: 140px;
   width: 100%;
   background-color: black;
   height: 630px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px auto;
 }
 .footer-info {
   color: white;
   display: flex;
   gap: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-.icons {
-  color: blue;
+
+.icons img {
+  width: 60px;
+  height: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.last-info p {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+.akhiri {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+#final {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 140px;
+  padding-bottom: 50px;
 }
