@@ -1,0 +1,159 @@
+/* shared styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* nav section starts */
+.gamer {
+  color: #ff42a5;
+}
+#gam {
+  font-size: 48px;
+  font-weight: 700;
+}
+.follow {
+  width: 262px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  display: flex;
+}
+.follow p {
+  padding-top: 18px;
+  padding-left: 10px;
+}
+.nav-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.nav-info a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 18px;
+}
+.nav-image {
+  display: flex;
+}
+.nav-image img {
+  width: 86px;
+  height: 40px;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+.nav-container {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+/* nav section ends */
+
+/* banner section starts */
+.banner-image {
+  width: 50%;
+  /* max-height: 600px; */
+}
+.banner-image img {
+  width: 100%;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1400px;
+  min-width: 50px;
+  margin: 0px auto;
+}
+.gradient {
+  text-align: center;
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-description p {
+  margin-bottom: 17px;
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 200px;
+}
+.banner-description {
+  width: 50%;
+  height: auto;
+  background-image: url(./images/Group\ 14.png),
+    linear-gradient(
+      223deg,
+      rgba(140, 87, 238, 0.03) 0%,
+      rgba(241, 68, 174, 0.03) 100%
+    );
+  background-blend-mode: overlay;
+
+  text-align: center;
+}
+.btn-pink {
+  width: 156px;
+  height: 65px;
+  background-color: #ff42a5;
+  border-radius: 48px;
+  border: none;
+  color: white;
+}
+.btn-blue {
+  width: 165px;
+  height: 65px;
+  background-color: #4ec5f7;
+  border-radius: 48px;
+  border: none;
+  color: white;
+  margin-left: 15px;
+}
+/* banner section ends here */
+.gradientf {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#gradientc {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.sec3-p {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.sec3-card-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  gap: 22px;
+}
+.card {
+  width: 340px;
+  height: 400px;
+}
+.section3-cointainer {
+  margin-top: 120px;
+}
+#mouse:hover {
+  background-image: url(./images/icons8-play-24.png),
+    linear-gradient(overlay, grey, black);
+}
