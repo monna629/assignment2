@@ -249,9 +249,8 @@
 /* footer sections starts */
 .footer-container {
   margin-top: 140px;
-  width: 100%;
+  width: auto;
   background-color: black;
-  height: 630px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -281,17 +280,19 @@
   padding-right: 40px;
   padding-top: 40px;
 }
-.akhiri {
+.copyright {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
 }
 #final {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 140px;
+  padding-top: 120px;
   padding-bottom: 50px;
 }

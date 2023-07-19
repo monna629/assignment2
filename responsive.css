@@ -17,7 +17,6 @@
   .banner-container {
     flex-direction: column-reverse;
     margin-top: 80px;
-    width: 100%;
     justify-content: center;
     margin-left: 10px;
   }
@@ -72,11 +71,23 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    width: 30%;
   }
   .section5-container {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
     margin: 0px auto;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .footer-info {
+    flex-direction: column;
+  }
+  .last-info p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
   }
 }
 
