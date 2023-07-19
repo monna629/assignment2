@@ -8,6 +8,7 @@
     flex-direction: column;
     width: 100%;
     padding-top: 102px;
+    margin-top: 100px;
   }
   .nav-info {
     padding-top: 40px;
@@ -38,6 +39,45 @@
     margin-bottom: 140px;
   }
   /* banner sec ends */
+  .sec3-card-container {
+    width: 90%;
+    flex-direction: column;
+  }
+  .section3-container {
+    flex-direction: column;
+  }
+  .card {
+    margin: 20px auto;
+  }
+  .sec4-container {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 300px;
+  }
+  .sec4-img-parent {
+    width: 60%;
+  }
+  .sec4-img-parent img {
+    width: 100%;
+  }
+  .sec4-img-child {
+    top: 65%;
+    right: 60%;
+    left: -20px;
+  }
+  .sec4-img-parent {
+    margin-top: 100px;
+  }
+  .first-five-logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 30%;
+  }
+  .section5-container {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px auto;
+  }
 }
 
 /* for medium size devices */
@@ -57,7 +97,7 @@
   .nav-container {
     flex-direction: column;
     width: 100%;
-    padding-top: 102px;
+    padding-top: 200px;
   }
   .nav-info {
     padding-top: 40px;
@@ -65,16 +105,16 @@
   }
   .banner-container {
     flex-direction: column-reverse;
-    margin-top: 80px;
+    margin-top: 140px;
     width: 100%;
     justify-content: center;
     margin-left: 10px;
+    padding-top: 100px;
   }
   .banner-description {
     width: 700px;
-    /* align-items: center;
-    justify-content: center; */
-    margin-top: 100px;
+
+    padding-bottom: 40px;
   }
   .banner-description p {
     margin: 20px auto;
@@ -86,5 +126,43 @@
   }
   .follow {
     margin-bottom: 140px;
+  }
+  .sec3-card-container {
+    width: 90%;
+    flex-direction: column;
+  }
+  .section3-container {
+    flex-direction: column;
+  }
+  .card {
+    margin: 20px auto;
+  }
+  .sec4-container {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 300px;
+  }
+  .sec4-img-parent {
+    width: 60%;
+  }
+  .sec4-img-parent img {
+    width: 100%;
+  }
+  .sec4-img-child {
+    top: 65%;
+    right: 65%;
+  }
+  .sec4-img-parent {
+    margin-top: 100px;
+  }
+  .first-five-logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 30%;
+  }
+  .section5-container {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px auto;
   }
 }
